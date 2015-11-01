@@ -10,17 +10,25 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#030703</string>
+				<string>#000400</string>
 				<key>caret</key>
-				<string>#888888</string>
+				<string>#00FF00</string>
 				<key>foreground</key>
 				<string>#000000</string>
 				<key>invisibles</key>
 				<string>#000000</string>
 				<key>lineHighlight</key>
-				<string>#001500</string>
+				<string>#000000</string>
 				<key>selection</key>
-				<string>#103010</string>
+				<string>#001000</string>
+				<key>selectionBorder</key>
+				<string>#00FF00</string>
+				<key>inactiveSelection</key>
+				<string>#001200</string>
+				<key>gutter</key>
+				<string>#000300</string>
+				<key>guide</key>
+				<string>#204010</string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,7 +76,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#008800</string>
 			</dict>
@@ -95,28 +103,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Constant</string>
-			<key>scope</key>
-			<string>constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A1877E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Invalid</string>
-			<key>scope</key>
-			<string>invalid</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F3D651</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Class (definition)</string>
 			<key>scope</key>
 			<string>entity.name</string>
@@ -136,7 +122,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#007000</string>
+				<string>#00FF00</string>
 			</dict>
 		</dict>
 		<dict>
@@ -146,10 +132,8 @@
 	        <string>text source</string>
 	        <key>settings</key>
 	        <dict>
-	            <key>background</key>
-	            <string>#FAFAFAFC</string>
 	            <key>foreground</key>
-	            <string>#000000</string>
+	            <string>#009000</string>
 	        </dict>
     	</dict>
 	</array>
